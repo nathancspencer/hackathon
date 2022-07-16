@@ -32,5 +32,5 @@ for (var i = 0, l = images.length; i < l; i+=2) {
 }
 
 // Randomly reload.
-window.setInterval('randomReload()', timeToReload)
+window.setInterval('randomReload()', calcTimeToReload(time))
 randomReload(time);
