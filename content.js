@@ -2,7 +2,7 @@
 
 
 
-var time = 8;
+var time = 800;
 
 // Calculates corruptedness to display.
 function corruptedness(time) {
@@ -26,5 +26,4 @@ for (var i = 0, l = images.length; i < l; i++) {
 }
 
 // Randomly reload.
-window.setInterval('randomReload()', calcTimeToReload(time))
-randomReload(time);
+window.setInterval('randomReload()', calcTimeToReload(time));
