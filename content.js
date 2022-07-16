@@ -2,7 +2,7 @@
 
 
 
-var time = 800;
+var time = 8;
 
 // Calculates corruptedness to display.
 function corruptedness(time) {
