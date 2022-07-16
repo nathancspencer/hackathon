@@ -15,7 +15,7 @@ function calcTimeToReload(time) {
 }
 
 // Reload the page.
-function randomReload(time) {
+function randomReload() {
     location.reload(false);
 }
 
