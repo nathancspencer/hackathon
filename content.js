@@ -2,7 +2,7 @@
 
 
 
-var time = 8;
+var time = 8000;
 
 // Calculates corruptedness to display.
 function corruptedness(time) {
@@ -11,7 +11,7 @@ function corruptedness(time) {
 
 // Calculates time to randomly reload the page.
 function calcTimeToReload(time) {
-    return time * 1;
+    return time;
 }
 
 // Reload the page.
