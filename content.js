@@ -2,7 +2,7 @@
 
 
 
-var time = 8000;
+var time = 8;
 
 // Calculates corruptedness to display.
 function corruptedness(time) {
@@ -11,7 +11,7 @@ function corruptedness(time) {
 
 // Calculates time to randomly reload the page.
 function calcTimeToReload(time) {
-    return time;
+    return Math.random() * time * 2000;
 }
 
 // Reload the page.
@@ -22,12 +22,6 @@ function randomReload(time) {
 // Replace all images with...
 var images = document.getElementsByTagName('img');
 for (var i = 0, l = images.length; i < l; i++) {
-    images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
-}
-
-// Image replacement.
-var images = document.getElementsByTagName('img');
-for (var i = 0, l = images.length; i < l; i+=2) {
     images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 }
 
